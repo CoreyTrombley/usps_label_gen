@@ -6,6 +6,15 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'active_shipping'
+
+group :development, :test do
+  gem 'pry-rails'
+  gem 'better_errors'
+  gem 'rspec-rails'
+  gem 'binding_of_caller'
+  gem 'database_cleaner'
+end
 
 
 # Gems used only for assets and not required
